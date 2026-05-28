@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <style>
+    .card img {
+      width: 100%;
+      height: 450px;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <!-- menu -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- slide show -->
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img
+          src="https://img.freepik.com/premium-psd/delicious-burger-food-menu-web-banner-template_120329-5527.jpg?semt=ais_hybrid&w=740&q=80"
+          class="d-block w-100" alt="...">
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- crad -->
+  <div class="card-group">
+    <div class="card">
+      
+      <img src="https://i.pinimg.com/736x/5c/68/8d/5c688d80e6bbccd4f718f4e55d113781.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Burger</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This content is a little bit longer.</p>
+           <p class="card text"><small class="text-body-secondary"> </small> </p>
+          <h5 class=" card-tittle text-danger">price:8$</h5>
+      </div>
+      <button class="btn btn-primary">Buy Now </button>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+    
+      </div>
+     
+    </div>
+    <div class="card">
+      <img src="https://i.pinimg.com/736x/c2/6e/93/c26e930f6356a41fdcc6ea7efe8091df.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Chicken Fried</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.This content is a little bit longer</p>
+         <p class="card text"><small class="text-body-secondary"> </small> </p>
+          <h5 class=" card-tittle text-danger">price:9$</h5>
+      </div>
+      <button class="btn btn-primary">Buy Now </button>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+        
+      </div>
+  
+    </div>
+    <div class="card">
+      <img src="https://i.pinimg.com/1200x/54/45/69/544569c4be9d2bab9a7fd9bbfaa7e99e.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Burger </h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This card has even longer content than the first to show that equal height action.</p>
+           <p class="card text"><small class="text-body-secondary"> </small> </p>
+          <h5 class=" card-tittle text-danger">price:12$</h5>
+      </div>
+      <button class="btn btn-primary">Buy Now </button>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+     
+      </div>
+      
+    </div>
+    <div class="card">
+      <img src="https://i.pinimg.com/736x/eb/cf/a4/ebcfa4b72c27003de54ea9af325fe33a.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">full set </h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This card has even longer content than the first to show that equal height action.</p>
+          <p class="card text"><small class="text-body-secondary"> </small> </p>
+          <h5 class=" card-tittle text-danger">price:12$</h5>
+      </div>
+      <button class="btn btn-primary">Buy Now </button>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+       
+      </div>
+    
+    </div>
+     <div class="card">
+      <img src="https://i.pinimg.com/736x/38/bb/96/38bb963a9c08bc4b4894b98b9d5ff32c.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Burger </h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This card has even longer content than the first to show that equal height action.</p>
+           <p class="card text"><small class="text-body-secondary"> </small> </p>
+          <h5 class=" card-tittle text-danger">price:12$</h5>
+      </div>
+      <button class="btn btn-primary">Buy Now </button>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+  </div>
+  
+
+      </div>
+      <div class="card-group">
+    <div class="card">
+      
+      <img src="https://i.pinimg.com/736x/69/3a/02/693a0295667bf9ec3f568e88f873dd2c.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Burger</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This content is a little bit longer.</p>
+           <p class="card text"><small class="text-body-secondary"> </small> </p>
+          <h5 class=" card-tittle text-danger">price:8$</h5>
+      </div>
+      <button class="btn btn-primary">Buy Now </button>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+    
+      </div>
+     
+    </div>
+    <div class="card">
+      <img src="https://i.pinimg.com/1200x/70/45/a6/7045a637b9afd9dd788aba73d909e4fe.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Burger</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.This content is a little bit longer</p>
+         <p class="card text"><small class="text-body-secondary"> </small> </p>
+          <h5 class=" card-tittle text-danger">price:9$</h5>
+      </div>
+      <button class="btn btn-primary">Buy Now </button>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+        
+      </div>
+  
+    </div>
+    <div class="card">
+      <img src="https://i.pinimg.com/736x/34/0a/88/340a88b92bd4cbcee187e73471a0f86c.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Burger </h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This card has even longer content than the first to show that equal height action.</p>
+           <p class="card text"><small class="text-body-secondary"> </small> </p>
+          <h5 class=" card-tittle text-danger">price:12$</h5>
+      </div>
+      <button class="btn btn-primary">Buy Now </button>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+     
+      </div>
+      
+    </div>
+    <div class="card">
+      <img src="https://i.pinimg.com/736x/58/9e/1e/589e1e8aedf3b65c0e78d708a421d753.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Chicken Fried</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This card has even longer content than the first to show that equal height action.</p>
+          <p class="card text"><small class="text-body-secondary"> </small> </p>
+          <h5 class=" card-tittle text-danger">price:12$</h5>
+      </div>
+      <button class="btn btn-primary">Buy Now </button>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+       
+      </div>
+    
+    </div>
+     <div class="card">
+      <img src="https://i.pinimg.com/736x/31/c3/0c/31c30c1b4831bd156f9d78d4193fffdd.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pizza</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This card has even longer content than the first to show that equal height action.</p>
+           <p class="card text"><small class="text-body-secondary"> </small> </p>
+          <h5 class=" card-tittle text-danger">price:12$</h5>
+      </div>
+      <button class="btn btn-primary">Buy Now </button>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+  </div>
+  </div>
+      <div class="card-group">
+    <div class="card">
+      
+      <img src="https://i.pinimg.com/1200x/81/b0/f9/81b0f91ef115969954677a641f4d4338.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Drink</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This content is a little bit longer.</p>
+           <p class="card text"><small class="text-body-secondary"> </small> </p>
+          <h5 class=" card-tittle text-danger">price:3$</h5>
+      </div>
+      <button class="btn btn-primary">Buy Now </button>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+    
+      </div>
+     
+    </div>
+    <div class="card">
+      <img src="https://i.pinimg.com/1200x/8c/77/b3/8c77b3dd9d46a8d03a2c37dd5b9e9e3b.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Drink</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.This content is a little bit longer.</p>
+         <p class="card text"><small class="text-body-secondary"> </small> </p>
+          <h5 class=" card-tittle text-danger">price:3$</h5>
+      </div>
+      <button class="btn btn-primary">Buy Now </button>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+        
+      </div>
+  
+    </div>
+    <div class="card">
+      <img src="https://i.pinimg.com/1200x/cb/ea/7c/cbea7ce26a80cb17cd0d0944fc594662.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Drink </h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This card has even longer content than the first to show that equal height action.</p>
+           <p class="card text"><small class="text-body-secondary"> </small> </p>
+          <h5 class=" card-tittle text-danger">price:3$</h5>
+      </div>
+      <button class="btn btn-primary">Buy Now </button>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+     
+      </div>
+      
+    </div>
+    <div class="card">
+      <img src="https://i.pinimg.com/1200x/21/e8/fa/21e8fa254c60508f22d29a01991c0fb1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Drink</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This card has even longer content than the first to show that equal height action.</p>
+          <p class="card text"><small class="text-body-secondary"> </small> </p>
+          <h5 class=" card-tittle text-danger">price:3$</h5>
+      </div>
+      <button class="btn btn-primary">Buy Now </button>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+       
+      </div>
+    
+    </div>
+     <div class="card">
+      <img src="https://i.pinimg.com/736x/3a/ae/78/3aae78cfb0561a3c200d5259704552bf.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Drink </h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This card has even longer content than the first to show that equal height action.</p>
+           <p class="card text"><small class="text-body-secondary"> </small> </p>
+          <h5 class=" card-tittle text-danger">price:3$</h5>
+      </div>
+      <button class="btn btn-primary">Buy Now </button>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+  </div>
+  </div>
+      <div class="card-group">
+    <div class="card">
+      
+      <img src="https://i.pinimg.com/736x/a5/87/e6/a587e68a5b400ebfa2979fc001c16f5d.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pepis</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This content is a little bit longer.</p>
+           <p class="card text"><small class="text-body-secondary"> </small> </p>
+          <h5 class=" card-tittle text-danger">price:1$</h5>
+      </div>
+      <button class="btn btn-primary">Buy Now </button>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+    
+      </div>
+     
+    </div>
+    <div class="card">
+      <img src="https://i.pinimg.com/736x/05/62/69/0562691ad86eab03a3441c062cd8aaa0.jpg" class="" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">fanta orange</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.This content is a little bit longer</p>
+         <p class="card text"><small class="text-body-secondary"> </small> </p>
+          <h5 class=" card-tittle text-danger">price:1$</h5>
+      </div>
+      <button class="btn btn-primary">Buy Now </button>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+        
+      </div>
+  
+    </div>
+    <div class="card">
+      <img src="https://i.pinimg.com/736x/7b/5c/72/7b5c7212c844692ecba7bfb2cede6df2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">fanta </h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This card has even longer content than the first to show that equal height action.</p>
+           <p class="card text"><small class="text-body-secondary"> </small> </p>
+          <h5 class=" card-tittle text-danger">price:1$</h5>
+      </div>
+      <button class="btn btn-primary">Buy Now </button>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+     
+      </div>
+      
+    </div>
+    <div class="card">
+      <img src="https://i.pinimg.com/736x/b6/cb/fb/b6cbfb854b8e20546a9ec428c2b69250.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">fanta Apple </h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This card has even longer content than the first to show that equal height action.</p>
+          <p class="card text"><small class="text-body-secondary"> </small> </p>
+          <h5 class=" card-tittle text-danger">price:1$</h5>
+      </div>
+      <button class="btn btn-primary">Buy Now </button>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+       
+      </div>
+    
+    </div>
+     <div class="card">
+      <img src="https://i.pinimg.com/1200x/d9/7b/d7/d97bd73de92da91775e2cac3fd80507b.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">coca </h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This card has even longer content than the first to show that equal height action.</p>
+           <p class="card text"><small class="text-body-secondary"> </small> </p>
+          <h5 class=" card-tittle text-danger">price:1$</h5>
+      </div>
+      <button class="btn btn-primary">Buy Now </button>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+  </div>
+   
+   
+  
+  
+  
+ 
+</body>
+
+</html>
